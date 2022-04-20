@@ -1,0 +1,68 @@
+.home-page{
+    .text-zone{
+        position: absolute;
+        left:10%;
+        top:50%;
+        transform: translateY(-50%);
+    }
+    h1{
+        color:#fff;
+        font-size: 53px;
+        flex: 400;
+
+        &::before{
+            content:"<h1>";
+            font-family: 'La Belle Aurore';
+            color:#ffd700;
+            position: absolute;
+            font-size: 18px;
+            margin-top: -40px;
+            opacity: 0.6;
+            left:15px;
+        }
+        &::after{
+            content:"<h1>";
+            font-family: 'La Belle Aurore';
+            color:#ffd700;
+            position: absolute;
+            font-size: 18px;
+            margin-top: 18px;
+            opacity: 0.6;
+            margin-left: 20px;
+            animation:fadeIn 1.5s 1.7s backwards;
+            
+        }
+        img{
+            width: 32px;
+            animation: rotateIn 3s linear both;
+            animation-delay:1.5s;
+        }
+
+      
+    }
+    h2{
+        color:#8d8d8d;
+        font-size: 18px;
+        font-weight: 500;
+        animation:fadeIn 1.5s 1.8s backwards;
+        letter-spacing:3px;
+        margin-bottom: 50px;
+    }
+    .flat-botton{
+        color:#ffd700;
+        text-decoration: none;
+        font-size: 13px;
+        border: 1px solid #ffd700;
+        padding: 0.75rem 1.2rem;
+        letter-spacing:5px;
+        white-space: nowrap;
+        animation:fadeIn 1s 1.8s backwards;
+        border-radius: 2px;
+
+        &:hover{
+            background-color: #ffd700;
+            color:#333;
+        }
+       
+    }
+}

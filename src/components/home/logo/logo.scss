@@ -1,0 +1,22 @@
+.logo-container{
+    .solid-logo{
+        width: 200px;
+        position: absolute;
+        top:10%;
+        left:60%;
+    
+    }
+    
+   
+
+
+}
+
+
+
+@media screen and (max-width:792px){
+    .solid-logo{
+     
+        opacity: 0;
+    }
+}
